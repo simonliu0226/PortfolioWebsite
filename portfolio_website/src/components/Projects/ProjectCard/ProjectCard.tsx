@@ -19,8 +19,10 @@ export default function ProjectCard({name, description, imageUrl, githubLink} : 
                 <p>{description}</p>
             </div>
             <div>
-                <a href={githubLink}>
-                    <button type="button" />
+                <a href={githubLink} target="_blank">
+                    <button type="button">
+                        GitHub
+                    </button>
                 </a>
             </div>
         </div>
