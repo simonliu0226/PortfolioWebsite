@@ -7,22 +7,22 @@ export default function Navbar() {
             <ul>
                 <li>
                     <Link activeClass="active" smooth spy to="about">
-                        ABOUT
+                        <button>ABOUT</button>
                     </Link>
                 </li>
                 <li>
                     <Link activeClass="active" smooth spy to="projects">
-                        PROJECTS
+                        <button>PROJECTS</button>
                     </Link>
                 </li>
                 <li>
                     <Link activeClass="active" smooth spy to="links">
-                        LINKS
+                        <button>LINKS</button>
                     </Link>
                 </li>
                 <li>
                     <Link activeClass="active" smooth spy to="contact">
-                        CONTACT ME
+                        <button>CONTACT ME</button>
                     </Link>
                 </li>
             </ul>

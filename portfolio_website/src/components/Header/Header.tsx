@@ -1,10 +1,13 @@
+import { Link } from 'react-scroll'
 import './Header.css'
 
 export default function Header() {
     return (
-        <div>
+        <div className='header-div'>
             <h1>Building Castles in the Cloud with Lines of Code.</h1>
-            <button>Let's Dive In</button>
+            <Link activeClass="active" smooth spy to="about">
+                <button>Let's Dive In</button>
+            </Link>
         </div>
     )
 }
